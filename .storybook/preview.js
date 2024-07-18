@@ -16,7 +16,9 @@ const preview = {
       },
     },
   },
+
   loaders: [mswLoader],
+  tags: ['autodocs']
 };
 
 export default preview;
