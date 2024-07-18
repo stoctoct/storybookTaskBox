@@ -9,7 +9,7 @@ const config = {
     "@storybook/addon-interactions",
     // 아래거 accessibility 이슈, 안되서 일단 넘어감.
     // https://storybook.js.org/tutorials/intro-to-storybook/react/en/simple-component/
-    // "@storybook/addon-a11y",
+    "@storybook/addon-a11y",
   ],
   framework: {
     name: "@storybook/react-vite",
