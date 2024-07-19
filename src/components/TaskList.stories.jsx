@@ -10,7 +10,7 @@ import { configureStore, createSlice } from '@reduxjs/toolkit';
 export const MockedState = {
   tasks: [
     { ...TaskStories.Default.args.task, id: '1', title: 'mocked Task 1' },
-    { ...TaskStories.Default.args.task, id: '2', title: 'Task 2' },
+    { ...TaskStories.Default.args.task, id: '2', title: 'mocked Task 2' },
     { ...TaskStories.Default.args.task, id: '3', title: 'Task 3' },
     { ...TaskStories.Default.args.task, id: '4', title: 'Task 4' },
     { ...TaskStories.Default.args.task, id: '5', title: 'Task 5' },
